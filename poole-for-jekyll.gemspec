@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "poole-for-jekyll"
+  spec.name          = "poole-for-jekyll-test"
   spec.version       = "3.0.0"
   spec.authors       = ["Mark Otto"]
   spec.email         = ["markdotto@gmail.com"]
