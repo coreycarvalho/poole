@@ -1,0 +1,13 @@
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  update_release_draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish gem
+        uses: dawidd6/action-publish-gem@v1
+        with:
+          api_key: ${{secrets.RUBYGEMS_API_KEY}}
